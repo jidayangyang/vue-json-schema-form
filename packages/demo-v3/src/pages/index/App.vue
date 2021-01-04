@@ -1,5 +1,6 @@
 <template>
     <div :class="$style.wrap">
+        Hello Vue3
         <footer :class="$style.footer">
             <a href="https://github.com/lljj-x/vue-json-schema-form">vue-json-schema-form</a>
         </footer>

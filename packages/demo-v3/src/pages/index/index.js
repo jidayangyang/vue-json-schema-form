@@ -5,7 +5,7 @@
 import '@/_common/bootstrap.js';
 import { createApp } from 'vue';
 // import VueRouter from 'VueRouter';
-import elementUI from '@/_common/components/ElementPlus/index.js';
+// import elementUI from '@/_common/components/ElementPlus/index.js';
 
 // import routes from './routes';
 
@@ -14,12 +14,10 @@ import App from './App';
 import './style.css';
 
 const app = createApp(App);
-app.use(elementUI);
-
 // app.use(VueRouter);
 
 // Ui
-app.use(elementUI);
+// app.use(elementUI);
 
 app.mount('#app');
 
